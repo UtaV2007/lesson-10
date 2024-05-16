@@ -47,7 +47,7 @@ input {
 }
 button {
     background-color: #5968F4;
-    width: 20vw;
+    width: 21vw;
     height: 59px;
     padding: 15px;
     text-align: center;
@@ -68,7 +68,7 @@ form {
 
 #big {
     display: flex;
-    width: 64vw;
+    width: 65vw;
     justify-content: space-between;
     margin: 0 auto;
 }
@@ -139,7 +139,7 @@ h2 {
     margin-top: 40px;
     padding: 63px 6vw;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 #hotels {
@@ -163,14 +163,14 @@ h2 {
 
 #contact {
     display: flex;
-    width: 37vw;
-    justify-content: space-between;
+    width: 43vw;
+    justify-content: space-around;
 }
 
 .contactinfo {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
     height: 150px;
 }
 
@@ -190,4 +190,188 @@ h2 {
     color: white;
     font-weight: 400;
     font-size: 17px;
+}
+
+
+@media only screen and (max-width: 1106px) {
+    #hotels {
+        width: 28vw;
+    }
+    #contact {
+        width: 53vw;
+    }
+    #footer {
+        padding: 61px 4vw;
+    }
+
+    i {
+        font-size: 21px !important;
+    }
+
+    #location {
+        height: 23px;
+    }
+
+    .icon {
+        height: 40px;
+        width: 40px;
+        border-radius: 50px;
+    }
+
+    .nice {
+        height: 170px;
+        justify-content: space-evenly;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+    
+    .textinfo {
+        font-size: 10px;
+    }
+}
+
+@media only screen and (max-width: 882px) {
+    h1 {
+        font-size: 30px;
+    }
+
+    #head {
+        margin: 30px 17vw;
+    }
+
+    #small2 {
+        height: 300px;
+    }
+
+    textarea {
+        height: 254px;
+    }
+
+    #info {
+        margin-top: 30px;
+    }
+    .purple {
+        font-size: 13px;
+    }
+    
+    .white {
+        font-size: 13px;
+    }
+    .contactinfo>h4 {
+        font-size: 19px;
+    }
+
+    #big {
+        width: 69vw;
+    }
+
+    #hotel {
+        font-size: 19px;
+    }
+
+    span {
+        font-size: 12px;
+    }
+
+    #contact {
+        justify-content: space-between;
+    }
+}
+
+@media only screen and (max-width: 660px) {
+    #big {
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #small2 {
+        justify-content: space-around;
+        height: 340px;
+    }
+
+    button {
+        width: 55vw;
+    }
+
+    input {
+        width: 51vw;
+    }
+
+    #small2 {
+        width: 55vw;
+    }
+
+    textarea {
+        width: 70vw;
+        height: 200px;
+    }
+
+    h1 {
+        font-size: 27px;
+    }
+
+    #head {
+        margin: 20px 10vw;
+    }
+
+    #big {
+        margin: 0 10vw;
+    }
+
+    i {
+        font-size: 13px !important;
+    }
+
+    #location {
+        height: 14px;
+    }
+
+    .icon {
+        height: 35px;
+        width: 35px;
+        border-radius: 50px;
+    }
+
+    .nice {
+        height: 170px;
+        justify-content: space-evenly;
+    }
+
+    #info {
+        width: 100vw;
+        justify-content: space-evenly;
+        margin: 0;
+    }
+
+    .photo {
+        height: 29vw;
+    }
+
+    .nice {
+        height: 140px;
+    }
+
+    #footer {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: 360px;
+    }
+
+    #hotels {
+        width: 75vw;
+    }
+
+    #contact {
+        width: 85vw;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .contactinfo>h4 {
+        font-size: 17px;
+    }
 }
