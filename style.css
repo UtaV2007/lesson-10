@@ -290,18 +290,15 @@ h2 {
     #small2 {
         justify-content: space-around;
         height: 340px;
+        width: 79vw;
     }
 
     button {
-        width: 55vw;
+        width: 79vw;
     }
 
     input {
-        width: 51vw;
-    }
-
-    #small2 {
-        width: 55vw;
+        width: 74vw;
     }
 
     textarea {
@@ -374,4 +371,13 @@ h2 {
     .contactinfo>h4 {
         font-size: 17px;
     }
+
+    #hotel {
+        margin-left: 20vw;
+    }
+
+    #pht {
+        margin-left: 20vw;
+    }
+
 }
